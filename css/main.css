@@ -62,13 +62,14 @@ nav {
   justify-content: space-between;
   margin-top: 120px;
   padding-top: 11px;
-  background-color: #fff;
+  background-color: #f7f5d6;
 }
 
 .menu {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  margin-left: 15px;
 }
 
 .menu__item {
@@ -88,7 +89,7 @@ nav {
   position: relative;
   color: #000;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 .menu__link::after {
@@ -113,6 +114,7 @@ nav {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  margin-right: 15px;
 }
 
 .soc__item {
@@ -147,11 +149,13 @@ nav {
   max-width: 1024px;
   margin: 0 auto;
   padding-top: 20px;
+  background-color: #f7f5d6;
 }
 
 .form-container {
   display: inline-block;
   width: 300px;
+  margin-left: 80px;
 }
 
 .form-name-text {
@@ -170,6 +174,14 @@ nav {
   padding: 5px;
   margin: 5px 0;
   resize: none;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+#call-back-text,
+#call-back-text:focus,
+#call-back-text:active {
+  outline: none;
 }
 
 #email {
@@ -177,12 +189,28 @@ nav {
   width: 100%;
   padding: 5px;
   margin: 5px 0;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid gray;
+}
+
+#email,
+#email:focus,
+#email:active {
+  outline: none;
 }
 
 #submit-form {
   display: block;
   width: 100%;
   padding: 5px;
+  border-radius: 10px;
+}
+
+#submit-form,
+#submit-form:focus,
+#submit-form:active {
+  outline: none;
 }
 
 .contacts-container {
@@ -207,7 +235,7 @@ footer {
   justify-content: space-between;
   max-width: 1024px;
   margin: 0 auto 15px;
-  padding: 15px 50px;
+  padding: 15px 35px;
   background-image: url(../img/bg_head.jpg);
   border-radius: 0 0 20px 20px;
 }
@@ -226,6 +254,7 @@ main {
   max-width: 1024px;
   margin: 0 auto;
   padding-bottom: 20px;
+  background-color: #f7f5d6;
 }
 
 .user-block-info {
