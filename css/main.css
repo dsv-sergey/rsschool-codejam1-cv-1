@@ -205,3 +205,26 @@ nav {
 .contact-list__cont-name {
   font-size: 20px;
 }
+
+
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 15px 50px;
+  background-image: url(../img/bg_head.jpg);
+  border-radius: 0 0 20px 20px;
+}
+
+.menu__link--fs-small {
+  font-size: 15px;
+}
+
+.soc__link--size-small {
+  width: 15px;
+  height: 15px;
+  margin-top: 4px;
+}
