@@ -202,18 +202,11 @@ nav {
   padding: 0 20px;
 }
 
-.contact-list__cont-name {
-  font-size: 20px;
-}
-
-
-
-
 footer {
   display: flex;
   justify-content: space-between;
   max-width: 1024px;
-  margin: 0 auto;
+  margin: 0 auto 15px;
   padding: 15px 50px;
   background-image: url(../img/bg_head.jpg);
   border-radius: 0 0 20px 20px;
@@ -227,4 +220,73 @@ footer {
   width: 15px;
   height: 15px;
   margin-top: 4px;
+}
+
+main {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.user-block-info {
+  padding-top: 15px;
+}
+
+.user-block-info__name {
+  text-align: center;
+}
+
+.user-block-info__list {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-block-info__item {
+  width: 500px;
+  padding: 5px 0;
+  font-size: 15px;
+}
+
+.user-block-info__sub-menu-item--fw-easy {
+  font-weight: 700;
+}
+
+.user-block-info__sub-menu-item {
+  font-weight: 300;
+  margin-left: 40px;
+}
+
+.user-block-info__item-name {
+  padding: 15px 0 5px;
+}
+
+.user-block-info__item-link {
+  text-decoration: none;
+  color: #b23939;
+}
+
+.user-block-info__link-files {
+  text-decoration: none;
+  color: #899542;
+}
+
+.user-block-info__description {
+  padding-top: 11px;
+  font-weight: 300;
+}
+
+.user-block-info__description--width-smal {
+  width: 500px;
+  margin: 0 auto;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.user-block-info__list--padding-big {
+  padding: 15px 0;
+  list-style: square;
+  margin-left: 100px;
+  font-weight: 300;
 }
